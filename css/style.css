@@ -26,3 +26,15 @@
   height: 100px;
   border-radius: 50%;
 }
+/* @import "functions";
+ @import "variables";
+ @import "variables-dark";
+/* customize primary dark */
+[data-bs-theme="dark"] {
+  --bs-primary: #019;
+  --bs-primary-bg-subtle: #019;
+  --bs-primary-bg-subtle-dark: #019;
+}
+[data-bs-theme="dark"] .btn-primary {
+  --bs-btn-bg: #019;
+}
